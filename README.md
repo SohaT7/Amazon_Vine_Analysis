@@ -14,6 +14,7 @@ The schemata of the dataset is as follows:
  - PySpark
  - Python (Pandas)
  - SQL
+ - pgAdmin
  - Google Colab notebook
  - Jupyter notebook
  - VS Code
@@ -27,11 +28,17 @@ PySpark is used to perform the ETL (Extract, Transform, and Load) to extract the
 Next, either Pyspark, Pandas, or SQL have been used to analyze the data in order to determine if there is a bias towards writing favorable reviews among Vine (versus non-Vine) members.
 
 ## Results
-[Amazon_Reviews_ETL.ipynb]() shows how the ETL process was used to extract the video games dataset, transform it into four different tables, and then load these four tables into pgAdmin.
+### The ETL Process:
+[Amazon_Reviews_ETL.ipynb](https://github.com/SohaT7/Amazon_Vine_Analysis/blob/main/Amazon_Reviews_ETL.ipynb) shows how the ETL process was used to extract the video games dataset, transform it into four different tables, and then load these four tables into pgAdmin.
 The four tables created are: customers_table, products_table, review_id_table, and vine_table.
+![Customers Table](https://github.com/SohaT7/Amazon_Vine_Analysis/blob/main/Images/table_customers.png)
+![Products Table](https://github.com/SohaT7/Amazon_Vine_Analysis/blob/main/Images/table_products.png)
+![Review IDs Table](https://github.com/SohaT7/Amazon_Vine_Analysis/blob/main/Images/table_review_ids.png)
+![Vine Table](https://github.com/SohaT7/Amazon_Vine_Analysis/blob/main/Images/table_vines.png)
 
-Next, an analysis is run to determine is there is any favorable bias among the paid Vine reviews. To this end, [Vine_Review_Analysis.ipynb]() uses PySpark,
-[Vine_Review_Analysis_pandas.ipynb]() uses Python's Pandas library, and [Vine_Review_Analysis.sql]() uses SQL to run the same analysis. Either of these files can be viewed to understand the process.
+### The Analysis:
+Next, an analysis is run to determine is there is any favorable bias among the paid Vine reviews. To this end, [Vine_Review_Analysis.ipynb](https://github.com/SohaT7/Amazon_Vine_Analysis/blob/main/Vine_Review_Analysis.ipynb) uses PySpark,
+[Vine_Review_Analysis_pandas.ipynb](https://github.com/SohaT7/Amazon_Vine_Analysis/blob/main/Vine_Review_Analysis_pandas.ipynb) uses Python's Pandas library, and [Vine_Review_Analysis.sql](https://github.com/SohaT7/Amazon_Vine_Analysis/blob/main/Vine_Review_Analysis.sql) uses SQL to run the same analysis. Either of these files can be viewed to understand the process.
 
 ## Summary
 
