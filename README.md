@@ -43,14 +43,19 @@ One table was created for vine-only reviews, and one for non-vine-only reviews. 
 #### (b) Five Star Reviews Count:
 There are 15,711 five star reviews in all. There are 48 five star-vine reviews, and 15,663 five star-non-vine reviews.
 
+
 ![five star vine reviews count](https://github.com/SohaT7/Amazon_Vine_Analysis/blob/main/Images/fivestar_vine_count.png)
+
 ![five star non-vine reviews count](https://github.com/SohaT7/Amazon_Vine_Analysis/blob/main/Images/fivestar_nonvine_count.png)
 
 #### (c) Percentage of Five Star Reviews:
 There percentage of five star vine reviews is 51.06%, and the percentage of five star-non-vine reviews is 38.70%.
 
+
 ![query_percentage five star vine reviews](https://github.com/SohaT7/Amazon_Vine_Analysis/blob/main/Images/per_fivestar_vine_sql.png)
+
 ![query_percentage five star non-vine reviews](https://github.com/SohaT7/Amazon_Vine_Analysis/blob/main/Images/per_fivestar_nonvine_sql.png)
+
 ![pandas_percentage five star both reviews](https://github.com/SohaT7/Amazon_Vine_Analysis/blob/main/Images/pandas_perfive.png)
 
 ## Summary
