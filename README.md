@@ -31,12 +31,7 @@ Next, either Pyspark, Pandas, or SQL have been used to analyze the data in order
 ## Results
 ### The ETL Process:
 [Amazon_Reviews_ETL.ipynb](https://github.com/SohaT7/Amazon_Vine_Analysis/blob/main/Amazon_Reviews_ETL.ipynb) shows how the ETL process was used to extract the video games dataset, transform it into four different tables, and then load these four tables into pgAdmin.
-The four tables created are: customers_table, products_table, review_id_table, and vine_table.
-
-![Customers Table](https://github.com/SohaT7/Amazon_Vine_Analysis/blob/main/Images/t_customers.png)
-![Products Table](https://github.com/SohaT7/Amazon_Vine_Analysis/blob/main/Images/t_products.png)
-![Review IDs Table](https://github.com/SohaT7/Amazon_Vine_Analysis/blob/main/Images/t_review_ids.png)
-![Vine Table](https://github.com/SohaT7/Amazon_Vine_Analysis/blob/main/Images/t_vine.png)
+The four tables created are: [customers_table](https://github.com/SohaT7/Amazon_Vine_Analysis/blob/main/Images/t_customers.png), [products_table](https://github.com/SohaT7/Amazon_Vine_Analysis/blob/main/Images/t_products.png), [review_id_table](https://github.com/SohaT7/Amazon_Vine_Analysis/blob/main/Images/t_review_ids.png), and [vine_table](https://github.com/SohaT7/Amazon_Vine_Analysis/blob/main/Images/t_vine.png).
 
 ### The Analysis:
 Next, an analysis is run to determine is there is any favorable bias among the paid Vine reviews. To this end, [Vine_Review_Analysis.ipynb](https://github.com/SohaT7/Amazon_Vine_Analysis/blob/main/Vine_Review_Analysis.ipynb) uses PySpark,
