@@ -40,6 +40,21 @@ The four tables created are: customers_table, products_table, review_id_table, a
 Next, an analysis is run to determine is there is any favorable bias among the paid Vine reviews. To this end, [Vine_Review_Analysis.ipynb](https://github.com/SohaT7/Amazon_Vine_Analysis/blob/main/Vine_Review_Analysis.ipynb) uses PySpark,
 [Vine_Review_Analysis_pandas.ipynb](https://github.com/SohaT7/Amazon_Vine_Analysis/blob/main/Vine_Review_Analysis_pandas.ipynb) uses Python's Pandas library, and [Vine_Review_Analysis.sql](https://github.com/SohaT7/Amazon_Vine_Analysis/blob/main/Vine_Review_Analysis.sql) uses SQL to run the same analysis. Either of these files can be viewed to understand the process.
 
+One table was created for vine-only reviews, and one for non-vine-only reviews. 
+The table for vine-only and non-vine-only reviews are shown below:
+![Vine-only Reviews Table]()
+![Non-vine-only Reviews Table]()
+There are a total of 40,565 reviews in the original vine_table, out of which 94 are vine reviews and 40,471 are non-vine reviews.
+
+There are 15,711 five star reviews in all. There are 48 five star-vine reviews, and 15,663 five star-non-vine reviews.
+![five star vine reviews count](https://github.com/SohaT7/Amazon_Vine_Analysis/blob/main/Images/fivestar_vine_count.png)
+![five star non-vine reviews count](https://github.com/SohaT7/Amazon_Vine_Analysis/blob/main/Images/fivestar_nonvine_count.png)
+
+There percentage of five star vine reviews is XXX, and the percentage of five star-non-vine reviews is XXX.
+![query_percentage five star vine reviews](https://github.com/SohaT7/Amazon_Vine_Analysis/blob/main/Images/per_fivestar_vine_sql.png)
+![query_percentage five star non-vine reviews](https://github.com/SohaT7/Amazon_Vine_Analysis/blob/main/Images/per_fivestar_nonvine_sql.png)
+![pandas_percentage five star both reviews](https://github.com/SohaT7/Amazon_Vine_Analysis/blob/main/Images/per_fivestar_both_pandas.png)
+
 ## Summary
 
 ## Contact Information
