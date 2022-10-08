@@ -1,4 +1,19 @@
 # Amazon Vine Analysis
+## Table of Contents
+- [Overview of the Analysis](#overview-of-the-analysis)
+    - [Purpose](#purpose)
+    - [About the Dataset](#about-the-dataset)
+    - [Tools Used](#tools-used)
+    - [Description](#description)
+- [Results](#results)
+    - [The ETL Process](#the-etl-process)
+    - [The Analysis](#the-analysis)
+        - [Total Count](#total-count)
+        - [Five Star Reviews Count](#five-star-reviews-count)
+        - [Percentage of Five Star Reviews](#percentage-of-five-star-reviews)
+- [Summary](#summary)
+- [Contact Information](#contact-information)
+
 ## Overview of the Analysis
 ### Purpose:
 The anlaysis aims to analyze the product reviews written by members of the paid Amazon Vine program, and determine if they are favorably biased as opposed to the ones written by non-vine members/customers.
@@ -37,10 +52,10 @@ The four tables created are: [customers_table](https://github.com/SohaT7/Amazon_
 Next, an analysis is run to determine is there is any favorable bias among the paid Vine reviews. To this end, [Vine_Review_Analysis.ipynb](https://github.com/SohaT7/Amazon_Vine_Analysis/blob/main/Vine_Review_Analysis.ipynb) uses PySpark,
 [Vine_Review_Analysis_pandas.ipynb](https://github.com/SohaT7/Amazon_Vine_Analysis/blob/main/Vine_Review_Analysis_pandas.ipynb) uses Python's Pandas library, and [Vine_Review_Analysis.sql](https://github.com/SohaT7/Amazon_Vine_Analysis/blob/main/Vine_Review_Analysis.sql) uses SQL to run the same analysis. Either of these files can be viewed to understand the process.
 
-#### (a) Total Count:
+#### Total Count:
 One table was created for vine-only reviews, and one for non-vine-only reviews. There are a total of 40,565 reviews in the original vine_table, out of which 94 are vine reviews and 40,471 are non-vine reviews.
 
-#### (b) Five Star Reviews Count:
+#### Five Star Reviews Count:
 There are 15,711 five star reviews in all. There are 48 five star-vine reviews, and 15,663 five star-non-vine reviews.
 
 
@@ -48,7 +63,7 @@ There are 15,711 five star reviews in all. There are 48 five star-vine reviews, 
 
 ![five star non-vine reviews count](https://github.com/SohaT7/Amazon_Vine_Analysis/blob/main/Images/fivestar_nonvine_count.png)
 
-#### (c) Percentage of Five Star Reviews:
+#### Percentage of Five Star Reviews:
 There percentage of five star vine reviews is 51.06%, and the percentage of five star-non-vine reviews is 38.70%.
 
 
